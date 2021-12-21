@@ -1,13 +1,15 @@
 {
   "name": "graphql-apollo-basic-setup",
+  "author": {
+    "name": "Stu Last"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "repository": {
     "type": "Github",
-    "url": ""
+    "url": "https://github.com/StuLast/demo-graphql-apollo-basic-setup"
   },
-  "repository": {}
   "scripts": {
     "dev": "nodemon ./src/index.js"
   },
