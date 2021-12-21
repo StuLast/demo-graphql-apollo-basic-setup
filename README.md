@@ -15,11 +15,11 @@ This has been tested with Node v16.13.1
 
 ##  Getting the code
 
-The code is available publicy on GitHub - you don't even need an account.  Visit https://github.com/StuLast/demo-graphql-apollo-basic-setup to view the entire repo.  
+The code is available publicy on GitHub - you don't even need an account.  Visit https://github.com/StuLast/demo-graphql-apollo-basic-setup/tree/1-basic-scaffold to view the entire repo. The basic scaffold lives in a branch called 1-basic-scaffold. 
 
 If you want to grab the code, and you have git installed on your computer, you can clone it directly - or even better, fork it and adapt it for your own purposes.
 
-```git clone git@github.com:StuLast/demo-graphql-apollo-basic-setup.git```
+```git clone git@github.com:StuLast/demo-graphql-apollo-basic-setup.git -b 1-basic-scaffold```
 
 Alternatively you can download a zip from Github and work on it from there.  Note that you will not be able to track updates and branches if you use the zip approach.
 
@@ -46,3 +46,8 @@ or
 ##  About the scripts and config
 
 I've made an effort to extract as much of the config out of the package.json file as possible.  nodemon.json contains the config on how Nodemon should work.  Likewise, .bablerc contains the small amount of code needed to get Babel working.  This leaves the script definition in package.json clean and easy to understand.
+
+## Problems and Feedback
+
+If you encounter any issues or have suggestions for how this demo scaffold should work, feel free to add an issue via Github.
+
